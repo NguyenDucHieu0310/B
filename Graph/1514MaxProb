@@ -1,0 +1,101 @@
+#include <vector>
+#include <queue>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+// Định nghĩa lớp Solution
+class Solution {
+public:
+    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
+        // Xây dựng danh sách kề
+        vector<vector<pair<int, double>>> adj(n);
+        for (int i = 0; i < edges.size(); ++i) {
+            int u = edges[i][0], v = edges[i][1];
+            double prob = succProb[i];
+            adj[u].push_back({v, prob});
+            adj[v].push_back({u, prob}); // Đồ thị vô hướng
+        }
+        
+        // Mảng lưu xác suất lớn nhất đến mỗi đỉnh
+        vector<double> prob(n, 0.0);
+        prob[start] = 1.0; // Xác suất tại đỉnh start là 1
+        
+        // Hàng đợi ưu tiên: (xác suất, đỉnh)
+        priority_queue<pair<double, int>> pq;
+        pq.push({1.0, start});
+        
+        // Dijkstra
+        while (!pq.empty()) {
+            auto [currProb, curr] = pq.top();
+            pq.pop();
+            
+            // Nếu xác suất hiện tại nhỏ hơn xác suất đã biết, bỏ qua
+            if (currProb < prob[curr]) continue;
+            
+            // Duyệt các đỉnh kề
+            for (auto [next, edgeProb] : adj[curr]) {
+                double newProb = currProb * edgeProb;
+                if (newProb > prob[next]) {
+                    prob[next] = newProb;
+                    pq.push({newProb, next});
+                }
+            }
+        }
+        
+        return prob[end]; // Xác suất lớn nhất đến end
+    }
+};
+
+// Hàm in vector để hiển thị đầu vào
+void printInput(int n, const vector<vector<int>>& edges, const vector<double>& succProb, int start, int end) {
+    cout << "n = " << n << ", start = " << start << ", end = " << end << endl;
+    cout << "Edges: ";
+    for (const auto& edge : edges) {
+        cout << "[" << edge[0] << "," << edge[1] << "] ";
+    }
+    cout << "\nSuccess Probabilities: ";
+    for (double prob : succProb) {
+        cout << prob << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    Solution solution;
+    int T;
+    
+    // Nhập số test case
+    cout << "Enter number of test cases: ";
+    cin >> T;
+    
+    for (int t = 1; t <= T; ++t) {
+        cout << "\nTest Case " << t << ":\n";
+        
+        // Nhập n, m, start, end
+        int n, m, start, end;
+        cout << "Enter n (number of nodes), m (number of edges), start, end: ";
+        cin >> n >> m >> start >> end;
+        
+        // Nhập danh sách cạnh và xác suất
+        vector<vector<int>> edges(m);
+        vector<double> succProb(m);
+        cout << "Enter " << m << " edges (u v) and their success probabilities:\n";
+        for (int i = 0; i < m; ++i) {
+            int u, v;
+            double prob;
+            cin >> u >> v >> prob;
+            edges[i] = {u, v};
+            succProb[i] = prob;
+        }
+        
+        // In đầu vào để xác nhận
+        printInput(n, edges, succProb, start, end);
+        
+        // Tính toán và in kết quả
+        double result = solution.maxProbability(n, edges, succProb, start, end);
+        cout << "Output: " << fixed << setprecision(5) << result << "\n";
+    }
+    
+    return 0;
+}
