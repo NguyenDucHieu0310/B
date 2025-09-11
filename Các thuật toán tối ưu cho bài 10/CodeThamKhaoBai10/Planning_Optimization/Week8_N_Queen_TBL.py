@@ -56,7 +56,7 @@ def search_tabu(max_iter):
     global violation
     
     generate_initial_solution()
-    print('Initial violations = ',violation)
+    #print('Initial violations = ',violation)
 
     for it in range(max_iter):
         if violation == 0:
@@ -66,9 +66,9 @@ def search_tabu(max_iter):
         x[q] = r
         T[q][r] = it + tbl
         violation = get_violation()
-        print('Step ',it,': Move (',q,',',r,'), delta = ',delta,' new violations = ',violation)
+        #print('Step ',it,': Move (',q,',',r,'), delta = ',delta,' new violations = ',violation)
         
-    print(n)
+    #print(n)
     for i in x:
         print(i + 1, end = " ")
 

@@ -1,0 +1,22 @@
+Var X1 1 20
+Var X2 1 20
+Var X3 1 20
+Var X4 1 20
+Var X5 1 20
+Var X6 1 20
+Var X7 1 20
+Var X8 1 20
+Var X9 1 20
+Var X10 1 20
+Neq 1 X1 2 X2 -1
+Neq 1 X1 4 X3 0
+Neq 3 X2 5 X4 2
+Neq 2 X5 3 X6 0
+Eq 1 X7 2 X8 3
+Eq 2 X8 1 X10 2
+Eq 1 X9 2 X10 1
+Leq 4 X3 1 X6 0
+Leq 1 X2 1 X3 0
+Leq 2 X8 1 X2 6
+Eq 1 X1 1 X10 2
+#

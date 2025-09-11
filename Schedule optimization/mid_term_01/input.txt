@@ -1,0 +1,96 @@
+30
+32 28 38 43 17 29 25 30 22 16 0 48 40 33 36 46 11 43 40 39 41 26 41 30 24 29 15 9 41 6 
+post AllDifferent
+post LessThanEqual 22 7
+update 15 11
+update 3 22
+post IsEqual 24 30
+update 3 12
+post LessThanEqual 7 16
+post IsEqual 23 19
+update 2 27
+post LessThanEqual 2 23
+post LessThanEqual 15 6
+post LessThanEqual 5 6
+post IsEqual 14 1
+post IsEqual 11 23
+update 5 23
+post LessThanEqual 21 14
+update 17 25
+post LessThanEqual 19 13
+update 4 18
+update 13 2
+post LessThanEqual 22 23
+post IsEqual 7 25
+post LessThanEqual 28 11
+post LessThanEqual 6 9
+post IsEqual 5 14
+post IsEqual 9 25
+post LessThanEqual 25 15
+post IsEqual 13 30
+post IsEqual 18 12
+update 23 2
+update 4 25
+post IsEqual 19 21
+update 6 12
+post LessThanEqual 21 15
+update 6 26
+update 1 5
+post LessThanEqual 10 10
+post LessThanEqual 15 6
+post IsEqual 15 27
+update 20 3
+post LessThanEqual 14 20
+post IsEqual 25 5
+post IsEqual 23 19
+update 23 28
+post IsEqual 27 11
+post LessThanEqual 19 10
+update 14 14
+post LessThanEqual 9 1
+violations wrong here ================================================
+post IsEqual 20 9
+post LessThanEqual 2 5
+post IsEqual 20 17
+violations
+update 5 26
+violations
+violations
+violations
+post LessThanEqual 24 19
+post IsEqual 21 11
+post LessThanEqual 27 5
+post LessThanEqual 6 9
+post IsEqual 12 28
+update 21 16
+post IsEqual 11 10
+update 22 16
+violations
+update 1 5
+post LessThanEqual 21 10
+update 29 12
+post IsEqual 5 27
+update 17 6
+violations
+update 15 30
+post IsEqual 25 10
+violations
+post IsEqual 28 4
+post IsEqual 6 29
+update 1 30
+update 24 11
+violations
+update 8 25
+update 28 17
+update 21 5
+update 17 8
+post IsEqual 6 23
+post IsEqual 19 30
+violations
+update 23 26
+post IsEqual 24 18
+update 27 13
+update 28 27
+violations
+update 21 2
+#
