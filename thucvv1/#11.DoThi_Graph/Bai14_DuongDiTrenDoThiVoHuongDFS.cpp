@@ -1,3 +1,22 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Cho trước hai đỉnh s và t. Hãy tìm đường đi từ s đến t bằng thuật toán DFS. 
+// Nếu không có đường đi, in ra -1.
+
+// Input:
+// 6 7 1 6
+// 1 2
+// 1 3
+// 2 4
+// 2 5
+// 3 5
+// 4 6
+// 5 6
+
+// Output:
+// 1 2 4 6
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

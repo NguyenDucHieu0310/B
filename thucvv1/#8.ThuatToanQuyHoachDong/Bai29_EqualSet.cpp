@@ -1,3 +1,25 @@
+// ## Đề bài
+// Cho một số nguyên dương `n`. Hãy đếm số cách **chia tập hợp `{1, 2, ..., n}` thành hai tập con có tổng bằng nhau**.  
+
+// Do kết quả có thể rất lớn, in kết quả modulo 10^9 + 7.
+
+// ## Input
+// - Dòng 1: Số nguyên `n` (1 ≤ n ≤ 500)
+
+// ## Output
+// - Một số nguyên: số cách chia tập `{1..n}` thành hai tập con có tổng bằng nhau modulo 10^9 + 7
+
+// ## Ví dụ
+
+// ### Input
+// 7
+
+// ### Output
+// 4
+
+// (Giải thích: Có 4 cách chia `{1,2,3,4,5,6,7}` thành hai tập con có tổng bằng nhau)
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

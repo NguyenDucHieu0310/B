@@ -1,3 +1,25 @@
+/*
+Đề bài:
+Cho một mảng a[] gồm n phần tử chỉ chứa 0 và 1, được sắp xếp sao cho tất cả các số 0 nằm trước các số 1. Hãy tìm vị trí cuối cùng của số 0 (1-based). Nếu không có số 0, in ra 0.
+
+Input:
+- Dòng 1: Số nguyên n (1 ≤ n ≤ 10^5)
+- Dòng 2: n số nguyên a[i] (0 hoặc 1), đã sắp xếp
+
+Output:
+- Một số nguyên: vị trí cuối cùng của số 0 trong mảng (1-based). Nếu không có 0, in 0.
+
+Ví dụ:
+
+Input:
+6
+0 0 0 1 1 1
+
+Output:
+3
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

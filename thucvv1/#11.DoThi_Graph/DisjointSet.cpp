@@ -1,3 +1,31 @@
+
+/*
+Cấu trúc dữ liệu Disjoint Set Union (DSU) hay Union-Find:
+
+Mục đích:
+- Quản lý các tập hợp rời nhau (disjoint sets) và hỗ trợ các thao tác:
+  1. Tìm đại diện của tập hợp chứa một phần tử (find).
+  2. Gộp hai tập hợp lại với nhau (union).
+
+Các thành phần:
+- `parent[i]`: đại diện của phần tử i. Nếu i là đại diện của tập, parent[i] = i.
+- `sz[i]` (tùy chọn): kích thước của tập chứa i, dùng cho union by size.
+- `find(u)`: trả về đại diện của tập chứa u.
+- `Union(u, v)`: gộp hai tập chứa u và v, nếu khác nhau.
+
+Ưu điểm:
+- Dùng để đếm số thành phần liên thông trong đồ thị.
+- Kiểm tra xem hai phần tử có thuộc cùng một tập hay không (có đường đi giữa 2 đỉnh).
+
+Ví dụ sử dụng:
+- Khởi tạo DSU với n đỉnh.
+- Thực hiện m thao tác gộp Union(x, y).
+- Đếm số thành phần liên thông: số lượng i sao cho i == parent[i].
+- Kiểm tra kết nối: hai đỉnh u, v có cùng parent thì có đường đi.
+*/
+
+
+
 // cấu trúc dữ liệu disjoin set (DSU) (Union find) : Các tập hợp dời nhau
 
 #include <bits/stdc++.h>

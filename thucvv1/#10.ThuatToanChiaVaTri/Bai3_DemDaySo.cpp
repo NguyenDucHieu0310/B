@@ -1,3 +1,31 @@
+/*
+Đề bài:
+Cho một dãy gồm n phần tử, đếm số cách chia dãy thành các phân đoạn liên tiếp (mỗi phân đoạn ít nhất 1 phần tử).
+
+Input:
+- Dòng 1: Số nguyên n (1 ≤ n ≤ 10^18)
+
+Output:
+- Một số nguyên: số cách chia dãy thành các phân đoạn liên tiếp modulo 10^9 + 7
+
+Ví dụ:
+
+Input:
+3
+
+Output:
+4
+
+Giải thích:
+Với n = 3, các cách chia là:
+1) [1][2][3]
+2) [1][2,3]
+3) [1,2][3]
+4) [1,2,3]
+*/
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

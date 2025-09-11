@@ -1,3 +1,33 @@
+// ĐỀ BÀI
+
+// Cho số nguyên dương n.  
+// Hãy liệt kê tất cả các hoán vị của dãy {1, 2, ..., n} sao cho trong hoán vị không tồn tại hai số liên tiếp có hiệu tuyệt đối bằng 1.  
+
+// In mỗi hoán vị trên một dòng.
+
+// INPUT  
+// - Dòng 1: số nguyên n (1 ≤ n ≤ 10).  
+
+// OUTPUT  
+// - Ghi ra tất cả các hoán vị thỏa mãn điều kiện, mỗi hoán vị một dòng.  
+// - Các số trong hoán vị được ghi liền nhau, không có khoảng trắng.  
+
+// VÍ DỤ  
+
+// Ví dụ 1  
+// Input  
+// 3  
+
+// Output  
+// 312  
+// 132  
+
+// Giải thích: Với n = 3, có 6 hoán vị của {1, 2, 3}:  
+// 123, 132, 213, 231, 312, 321.  
+// Chỉ có 132 và 312 là thỏa mãn vì không có hai số nào đứng cạnh nhau mà chênh lệch đúng 1.
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

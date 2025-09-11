@@ -1,3 +1,37 @@
+/*
+Đề bài:
+Cho ma trận vuông A[][] kích thước N x N và số nguyên K. 
+Tính ma trận A^K, sau đó tính tổng các phần tử của cột cuối cùng của ma trận kết quả.
+In ra kết quả modulo 10^9 + 7.
+
+Input:
+- Dòng đầu tiên: hai số nguyên N K (1 ≤ N ≤ 10, 1 ≤ K ≤ 10^9)
+- N dòng tiếp theo, mỗi dòng N số nguyên là các phần tử của ma trận A
+
+Output:
+- Một số nguyên là tổng các phần tử của cột cuối cùng của ma trận A^K modulo 10^9 + 7
+
+Ví dụ:
+
+Input:
+2 3
+1 1
+1 0
+
+Output:
+5
+
+Input:
+3 2
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+288
+*/
+
+
 // Cho ma trận vuông A[][] kích thước N x N. Nhiệm vụ của bạn là hãy tính ma trận A^K với K là số nguyên cho trước.
 // Sau đó, tính tổng các phần tử của cột cuối cùng. Đáp số có thể rất lớn, hãy in ra kết quả theo modulo 10^9+7.
 #include <bits/stdc++.h>

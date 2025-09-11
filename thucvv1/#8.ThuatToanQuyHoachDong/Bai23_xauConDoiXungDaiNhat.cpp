@@ -1,3 +1,25 @@
+// ## Đề bài
+// Cho một xâu ký tự `s`. Hãy tìm độ dài của **xâu con đối xứng dài nhất** trong `s`.  
+// Xâu con đối xứng là xâu đọc xuôi và ngược đều giống nhau.
+
+// ## Input
+// - Dòng 1: Xâu ký tự `s` (1 ≤ |s| ≤ 1000)
+
+// ## Output
+// - Một số nguyên: độ dài xâu con đối xứng dài nhất
+
+// ## Ví dụ
+
+// ### Input
+// abacdfgdcaba
+
+// ### Output
+// 3
+
+// (Giải thích: xâu con đối xứng dài nhất là "aba")
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

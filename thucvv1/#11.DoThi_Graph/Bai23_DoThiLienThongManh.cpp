@@ -1,3 +1,21 @@
+// Đề bài:
+// Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy kiểm tra xem đồ thị có liên thông mạnh (strongly connected) hay không. 
+// Nếu đồ thị liên thông mạnh, in ra 1, ngược lại in 0.
+
+// Input:
+// 4 5
+// 1 2
+// 2 3
+// 3 4
+// 4 1
+// 2 4
+
+// Output:
+// 1
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

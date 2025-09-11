@@ -1,3 +1,33 @@
+/*
+Bài toán:
+- Tìm cây khung nhỏ nhất (Minimum Spanning Tree - MST) của đồ thị vô hướng có trọng số.
+- Sử dụng thuật toán Prim (tham lam).
+
+Input:
+- Dòng 1: n m (số đỉnh, số cạnh)
+- m dòng tiếp theo: x y w (cạnh giữa x và y có trọng số w)
+
+Output:
+- Tổng trọng số của cây khung nhỏ nhất
+- Danh sách các cạnh trong cây khung nhỏ nhất (x y w)
+
+Ý tưởng giải:
+1. Dùng tập Vh chứa các đỉnh đã nằm trong cây khung, tập V chứa các đỉnh chưa có trong cây khung.
+2. Khởi tạo:
+   - Chọn 1 đỉnh bất kỳ làm đỉnh bắt đầu s.
+   - Gán trọng số d[i] = INF cho tất cả các đỉnh, d[s] = 0.
+3. Dùng priority_queue để lấy đỉnh x thuộc V có cạnh (x, y) trọng số nhỏ nhất nối với Vh:
+   - Nếu đỉnh x chưa dùng (chưa vào Vh) thì thêm x vào MST, cập nhật tổng trọng số.
+   - Duyệt các đỉnh kề y của x:
+       - Nếu y chưa vào Vh và w(x, y) < d[y] thì cập nhật d[y] = w(x, y) và parent[y] = x.
+4. Lặp lại cho đến khi tất cả đỉnh đã nằm trong MST.
+5. Kết quả:
+   - Tổng trọng số MST
+   - Các cạnh thuộc MST
+*/
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

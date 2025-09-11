@@ -1,3 +1,22 @@
+/*
+Đề bài:
+Cho một bàn cờ n x n, con mã xuất phát từ ô (s, t) và muốn di chuyển tới ô (u, v). 
+Bàn cờ gồm các ô 0 (không thể đi) và 1 (có thể đi). Con mã đi theo luật di chuyển của nó (8 hướng chữ L).
+Hãy xác định số bước tối thiểu để đến ô đích hoặc in -1 nếu không thể.
+
+Input:
+5 1 1 5 5
+1 1 1 0 1
+0 0 1 0 1
+0 0 1 1 1
+0 0 0 0 1
+1 1 1 1 1
+
+Output:
+4
+*/
+
+
 // Cho bàn cờ A cỡ nxn, một con mã ở ô (s, t) muốn di chuyển sang ô (u, v).
 // Hãy tìm số bước tối thiểu để con mã có thể đến ô (u, v) hoặc xác định rằng con mã không thể đi tới nơi.
 // Bàn cờ A được mô tả bằng các giá trị 0, 1, trong đó ô có giá trị 1 thì con mã có thể tự do di chuyển đến ô này,

@@ -1,3 +1,25 @@
+/*
+Bài toán:
+- Có K người đứng ở N địa điểm, các địa điểm nối với nhau bằng M đường đi một chiều.
+- Mọi người muốn tụ họp tại một địa điểm chung.
+- Cần xác định có bao nhiêu điểm có thể được chọn làm điểm họp mặt sao cho tất cả mọi người đều đi tới đó được.
+
+Ý tưởng giải:
+1. Lưu trữ đồ thị theo dạng danh sách kề.
+2. Với mỗi người, DFS từ vị trí ban đầu của người đó:
+   - đánh dấu các đỉnh mà người đó có thể đi tới
+   - tăng biến đếm `dem[u]` cho đỉnh u mỗi lần người có thể tới được.
+3. Sau khi duyệt tất cả K người:
+   - Nếu `dem[i] == K` nghĩa là tất cả K người đều có thể đi tới i -> điểm đó hợp lệ.
+4. Đếm các điểm hợp lệ và in ra.
+
+Lưu ý:
+- Vì N ≤ 1000, M ≤ 10000, DFS từ mỗi người là khả thi.
+- Cần reset mảng `visited` trước khi DFS cho mỗi người.
+*/
+
+
+
 // Có K người (1 ≤ K ≤ 100) đứng tại vị trí nào đó trong N địa điểm cho trước (1 ≤ N ≤ 1,000) được đánh số từ 1..N.
 // Các điểm được nối với nhau bởi M đoạn đường một chiều (1 ≤ M ≤ 10,000) (không có đoạn đường nào nối một điểm với chính nó).
 // Mọi người muốn cùng tụ họp tại một địa điểm nào đó.

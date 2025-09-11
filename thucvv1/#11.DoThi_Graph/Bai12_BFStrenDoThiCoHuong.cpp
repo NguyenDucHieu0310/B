@@ -1,3 +1,20 @@
+// Đề bài:
+// Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy in ra thứ tự các đỉnh được duyệt theo thuật toán BFS bắt đầu từ đỉnh s.
+
+// Input:
+// 5 6 1
+// 1 2
+// 1 3
+// 2 4
+// 2 5
+// 3 5
+// 4 1
+
+// Output:
+// 1 2 3 4 5
+
+
 // Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
 // Hãy thực hiện in ra danh sách các đỉnh được duyệt theo thuật toán BFS(s).
 

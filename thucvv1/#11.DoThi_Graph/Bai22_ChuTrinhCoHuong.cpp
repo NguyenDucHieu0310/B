@@ -1,3 +1,19 @@
+// Đề bài:
+// Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy kiểm tra xem đồ thị có chu trình hay không sử dụng DFS với đánh dấu màu (0: trắng, 1: xám, 2: đen). 
+// Nếu có ít nhất một chu trình, in ra 1, ngược lại in 0.
+
+// Input:
+// 4 4
+// 1 2
+// 2 3
+// 3 4
+// 4 2
+
+// Output:
+// 1
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

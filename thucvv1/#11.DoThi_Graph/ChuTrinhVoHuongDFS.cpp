@@ -1,3 +1,25 @@
+/*
+Bài toán: Kiểm tra đồ thị vô hướng có chu trình hay không bằng DFS.
+
+Ý tưởng:
+- Với đồ thị liên thông:
+  + Dùng DFS duyệt từ 1 đỉnh.
+  + Nếu gặp đỉnh đã visited mà không phải parent => tồn tại chu trình.
+- Với đồ thị không liên thông:
+  + Duyệt tất cả các thành phần liên thông.
+  + Nếu bất kỳ thành phần nào có chu trình => kết luận YES.
+  + Nếu tất cả thành phần không có chu trình => kết luận NO.
+
+Input:
+- Dòng 1: n m (số đỉnh, số cạnh)
+- m dòng tiếp theo: x y (cạnh vô hướng giữa x và y)
+
+Output:
+- YES nếu đồ thị có chu trình
+- NO nếu không có chu trình
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

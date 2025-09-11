@@ -1,3 +1,40 @@
+// ĐỀ BÀI
+
+// Cho một lưới (ma trận) kích thước n × m. Bạn đứng tại ô (1, 1) (góc trên bên trái) và muốn di chuyển đến ô (n, m) (góc dưới bên phải).  
+// Mỗi bước, bạn chỉ được phép đi **xuống dưới** hoặc **sang phải**.  
+
+// Hãy tính xem có bao nhiêu cách đi từ (1, 1) đến (n, m).
+
+// INPUT
+// - Dòng 1: hai số nguyên n, m — số hàng và số cột của lưới.
+// - Dòng 2..n+1: mỗi dòng gồm m số nguyên (trong code có đọc nhưng không dùng).
+
+// OUTPUT
+// - Một số nguyên duy nhất là số cách đi từ (1, 1) đến (n, m).
+
+// VÍ DỤ
+
+// Ví dụ 1  
+// Input
+// 2 2
+// 1 1
+// 1 1
+
+// Output
+// 2
+
+// Ví dụ 2  
+// Input
+// 3 3
+// 1 1 1
+// 1 1 1
+// 1 1 1
+
+// Output
+// 6
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,24 @@
+/*
+Bài toán: Kiểm tra đồ thị có chu trình hay không bằng thuật toán sắp xếp topo Kahn.
+
+Ý tưởng:
+- Đồ thị có hướng được biểu diễn bằng danh sách kề.
+- indegree[i] = số cạnh đi vào đỉnh i.
+- Sử dụng thuật toán Kahn:
+   1. Đưa tất cả các đỉnh có indegree = 0 vào queue.
+   2. Lấy đỉnh ra khỏi queue, giảm indegree của các đỉnh kề.
+   3. Nếu một đỉnh có indegree = 0 thì thêm vào queue.
+- Nếu số lượng đỉnh đã duyệt != n thì tồn tại chu trình.
+
+Input:
+- Dòng 1: n m (số đỉnh, số cạnh)
+- m dòng tiếp theo: x y (cạnh hướng từ x -> y)
+
+Output:
+- 1 nếu tồn tại chu trình, 0 nếu không có chu trình.
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

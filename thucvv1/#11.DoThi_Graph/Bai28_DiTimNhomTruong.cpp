@@ -1,3 +1,22 @@
+/*
+Đề bài:
+Trong lớp học có các nhóm bạn thân. Mỗi nhóm có một trưởng nhóm là người có nhiều quan hệ thân thiết nhất trong nhóm (nếu bằng nhau thì chọn số thứ tự nhỏ nhất).
+Nếu một bạn không chơi với ai cả thì là trưởng nhóm của chính mình.
+Hãy in ra thứ tự các trưởng nhóm theo thứ tự tăng dần.
+
+Input:
+6 4
+1 2
+2 3
+4 5
+5 6
+
+Output:
+2 5
+*/
+
+
+
 // Trong một lớp học luôn tồn tại những nhóm học sinh, các học sinh trong nhóm này sẽ thân thiết với nhau hơn.
 // Giả sử trong 1 nhóm, nếu bạn a chơi thân vs bạn b và bạn b chơi thân với bạn c, thì bạn a và bạn c sẽ chơi thân với nhau.
 // Hiện nay Tèo là lớp trưởng lớp 10A1,

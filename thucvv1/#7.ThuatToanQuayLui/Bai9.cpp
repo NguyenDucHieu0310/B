@@ -1,3 +1,50 @@
+// ĐỀ BÀI
+
+// Cho mảng a gồm n số nguyên dương và một số nguyên S.  
+// Hãy tìm số lượng phần tử ít nhất trong một tập con của mảng có tổng đúng bằng S.  
+// Nếu không tồn tại tập con nào có tổng bằng S thì in ra -1.
+
+// INPUT
+// - Dòng 1: hai số nguyên n và S (1 ≤ n ≤ 30, 1 ≤ S ≤ 10^5).  
+// - Dòng 2: n số nguyên dương a[i].
+
+// OUTPUT
+// - Một số nguyên duy nhất: số phần tử ít nhất trong tập con có tổng bằng S.  
+// - Nếu không tồn tại, in ra -1.
+
+// VÍ DỤ
+
+// Ví dụ 1  
+// Input
+// 5 9
+// 3 1 7 5 9
+
+// Output
+// 1
+
+// Giải thích: Chỉ cần chọn phần tử 9 → tổng = 9.
+
+// Ví dụ 2  
+// Input
+// 5 10
+// 3 1 7 5 9
+
+// Output
+// 2
+
+// Giải thích: Chọn tập con {3, 7} có tổng = 10.
+
+// Ví dụ 3  
+// Input
+// 5 2
+// 3 1 7 5 9
+
+// Output
+// -1
+
+// Giải thích: Không tồn tại tập con nào có tổng bằng 2.
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

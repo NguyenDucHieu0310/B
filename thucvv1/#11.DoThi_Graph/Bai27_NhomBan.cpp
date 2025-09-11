@@ -1,3 +1,20 @@
+/*
+Đề bài:
+Trong lớp học có các nhóm bạn thân. Một nhóm được định nghĩa sao cho nếu a thân với b và b thân với c thì a cũng thân với c.
+Tèo muốn tìm nhóm có số lượng thành viên lớn nhất.
+
+Input:
+6 4
+1 2
+2 3
+4 5
+5 6
+
+Output:
+3
+*/
+
+
 // Trong một lớp học luôn tồn tại những nhóm học sinh, các học sinh trong nhóm này sẽ thân thiết với nhau hơn.
 // Giả sử trong 1 nhóm, nếu bạn a chơi thân vs bạn b và bạn b chơi thân với bạn c, thì bạn a và bạn c sẽ chơi thân với nhau.
 // Hiện nay Tèo là lớp trưởng lớp 10A1, vì không thích việc chia bè kéo cánh trong lớp nên Tèo quyết định tìm ra nhóm có số bạn chơi thân với nhau nhất trong nhóm để đưa các thành viên của các nhóm khác vào trong nhóm có số lượng thành viên cao nhất này.

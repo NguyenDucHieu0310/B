@@ -1,3 +1,20 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy đếm số lượng đỉnh trụ (articulation points) của đồ thị.
+
+// Input:
+// 5 5
+// 1 2
+// 1 3
+// 3 2
+// 1 4
+// 4 5
+
+// Output:
+// 2
+
+
+
 // Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. Hãy đếm số lượng đỉnh trụ của đồ thị.
 #include <bits/stdc++.h>
 using namespace std;

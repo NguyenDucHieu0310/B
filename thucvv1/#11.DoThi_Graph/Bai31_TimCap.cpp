@@ -1,3 +1,23 @@
+/*
+Đề bài:
+Bạn được cung cấp một cây gốc với các nút và nút 1 là gốc. 
+Có một đường đi duy nhất giữa hai nút bất kỳ. 
+d(i, j) được định nghĩa là số cạnh trong một đường đi ngắn nhất giữa 2 nút i và j.
+Nhiệm vụ: tìm số lượng cặp (i, j) sao cho d(i, j) = d(1, i) - d(1, j).
+
+Input:
+5
+1 2
+1 3
+3 4
+3 5
+
+Output:
+4
+Giải thích: Các cặp cha-con thỏa mãn: (1,2),(1,3),(3,4),(3,5)
+*/
+
+
 // Bạn được cung cấp một cây gốc với các nút và nút 1 là gốc.
 // Có một đường đi duy nhất giữa hai nút bất kỳ.
 // Ở đây, d(i, j) được định nghĩa là số cạnh trong một đường đi ngắn nhất giữa 2 nút i và j.

@@ -1,3 +1,35 @@
+/*
+Đề bài:
+Dãy Fibonacci A[] được định nghĩa như sau:
+- A[0] = 0
+- A[1] = 1
+- A[i] = A[i-1] + A[i-2] với mọi i ≥ 2
+
+Cho một số nguyên dương N (1 ≤ N ≤ 10^9). Hãy xác định số thứ N trong dãy A[].
+
+Input:
+- Một số nguyên dương N
+
+Output:
+- Số thứ N trong dãy Fibonacci (mod 10^9 + 7 nếu quá lớn)
+
+Ví dụ:
+
+Input:
+10
+
+Output:
+55
+
+Input:
+50
+
+Output:
+12586269025
+*/
+
+
+
 // Dãy số nguyên dương vô hạn A[] được định nghĩa một cách đệ quy như sau: A[0] = 0; A[1] = 1; A[i] = A[i-1] + A[i-2] với mọi n ≥ 2. Cho số nguyên dương N không quá 10^9. Hãy xác định số thứ N trong dãy A[].
 #include <bits/stdc++.h>
 using namespace std;

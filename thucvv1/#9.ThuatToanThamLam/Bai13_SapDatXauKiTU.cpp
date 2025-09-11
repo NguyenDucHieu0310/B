@@ -1,3 +1,29 @@
+/*
+Đề bài:
+Cho một xâu s. Hãy kiểm tra xem có thể sắp xếp lại các ký tự trong xâu sao cho không có hai ký tự giống nhau nào đứng cạnh nhau không.
+
+Input:
+- Dòng 1: xâu s gồm các chữ cái (1 ≤ |s| ≤ 10^5)
+
+Output:
+- "YES" nếu có thể sắp xếp thỏa mãn
+- "NO" nếu không thể
+
+Ví dụ:
+
+Input:
+aabb
+
+Output:
+YES
+
+Input:
+aaab
+Output:
+NO
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,20 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy kiểm tra xem đồ thị có chu trình hay không. 
+// Nếu có ít nhất một chu trình, in ra 1, ngược lại in 0.
+
+// Input:
+// 5 5
+// 1 2
+// 1 3
+// 3 2
+// 1 4
+// 4 5
+
+// Output:
+// 1
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

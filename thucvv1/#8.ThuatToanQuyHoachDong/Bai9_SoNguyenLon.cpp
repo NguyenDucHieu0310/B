@@ -1,3 +1,28 @@
+/*
+ĐỀ BÀI: TÌM ĐỘ DÀI DÃY CON CHUNG DÀI NHẤT (LCS)
+
+Cho hai chuỗi ký tự s và t.
+Hãy tìm độ dài của dãy con chung dài nhất (Longest Common Subsequence — LCS) giữa hai chuỗi.
+
+Input:
+- Dòng 1: Chuỗi s (độ dài ≤ 1000).
+- Dòng 2: Chuỗi t (độ dài ≤ 1000).
+
+Output:
+- Một số nguyên duy nhất — độ dài dãy con chung dài nhất giữa s và t.
+
+Ví dụ:
+
+Input
+abcbdab
+bdcaba
+
+Output
+4
+
+(Vì LCS có thể là bcba hoặc bdab hoặc bcab đều có độ dài 4).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

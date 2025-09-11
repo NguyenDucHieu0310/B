@@ -1,3 +1,40 @@
+// ĐỀ BÀI
+
+// Cho một mảng gồm n số nguyên dương và một số nguyên k.  
+// Hãy liệt kê tất cả các tập con của mảng (các phần tử không lặp lại, theo chỉ số tăng dần) sao cho tổng các phần tử trong tập con đúng bằng k.  
+
+// Nếu không tồn tại tập con nào, in ra không có gì.
+
+// INPUT
+// - Dòng 1: hai số nguyên n, k — số phần tử của mảng và giá trị tổng cần tìm.
+// - Dòng 2: n số nguyên dương — các phần tử của mảng.
+
+// OUTPUT
+// - Mỗi dòng là một tập con có tổng bằng k, in theo định dạng `[x1 x2 ... xt]`.
+// - Các tập con được in ra theo thứ tự ngược với thứ tự sinh nhị phân (do đoạn `reverse` trong code).
+
+// VÍ DỤ
+
+// Ví dụ 1
+// Input
+// 4 8
+// 2 4 6 8
+
+// Output
+// [8]
+// [2 6]
+
+// Ví dụ 2
+// Input
+// 5 10
+// 2 3 5 7 8
+
+// Output
+// [2 3 5]
+// [2 8]
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

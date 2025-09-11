@@ -1,3 +1,23 @@
+/*
+Đề bài:
+Tính (n^k) mod 10^9+7.
+
+Input:
+- Dòng 1: Hai số nguyên n, k (1 ≤ n, k ≤ 10^9)
+
+Output:
+- Một số nguyên: kết quả của (n^k) mod 10^9+7
+
+Ví dụ:
+
+Input:
+2 10
+
+Output:
+1024
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

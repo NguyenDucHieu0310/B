@@ -1,3 +1,30 @@
+// ### ĐỀ BÀI: SINH HOÁN VỊ  
+
+// Cho số nguyên **n**. Hãy in ra tất cả các hoán vị của tập số `{1, 2, ..., n}`.  
+
+// #### Input  
+// - Một số nguyên `n` (1 ≤ n ≤ 9).  
+
+// #### Output  
+// - In ra tất cả các hoán vị của tập `{1..n}`, mỗi hoán vị trên một dòng.  
+// - Các số trong hoán vị in liền nhau (không có khoảng trắng).  
+// - Thứ tự in theo thứ tự sinh từ trái sang phải.  
+
+// #### Ví dụ  
+
+// **Input**  
+// 3
+
+// **Output**  
+// 123
+// 132
+// 213
+// 231
+// 312
+// 321
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

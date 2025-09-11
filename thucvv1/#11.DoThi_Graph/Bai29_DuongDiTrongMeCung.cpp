@@ -1,3 +1,22 @@
+/*
+Đề bài:
+Cho một mê cung n x n gồm các ô 0 (vật cản) và 1 (đường đi). Một con chuột xuất phát từ ô (s, t) và muốn di chuyển tới ô (u, v).
+Con chuột có thể đi sang các ô liền kề theo 8 hướng (chung đỉnh) nếu ô đó là đường đi (1).
+Hãy xác định số bước đi tối thiểu từ (s, t) đến (u, v) hoặc in -1 nếu không thể đi.
+
+Input:
+5 1 1 5 5
+1 1 1 0 1
+0 0 1 0 1
+0 0 1 1 1
+0 0 0 0 1
+1 1 1 1 1
+
+Output:
+8
+*/
+
+
 // Cho mê cung A có n hàng, n cột. Một con chuột xuất phát từ ô (s, t) và di chuyển tới ô (u, v).
 //  Nhiệm vụ của bạn là xác định số bước đi tối thiểu để con chuột con thể di chuyển từ ô (s, t) tới ô (u, v) hoặc xác định rằng không thể tìm được đường tới ô (u, v).
 // Mê cung A chỉ bao gồm các số 1 hoặc 0. Trong đó 1 đại diện cho đường đi và 0 đại diện cho vật cản, con chuột chỉ có thể di chuyển từ ô hiện tại sang các ô chung đỉnh với nó và có đường đi.

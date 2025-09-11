@@ -1,3 +1,26 @@
+// ## Đề bài
+// Cho một dãy số nguyên `a[1..n]`. Hãy tìm tổng lớn nhất của một **dãy con tăng giảm (bitonic subsequence)**, nghĩa là dãy con tăng lên rồi giảm xuống.
+
+// ## Input
+// - Dòng 1: Số nguyên `n` (1 ≤ n ≤ 10^5)  
+// - Dòng 2: n số nguyên a[i] (|a[i]| ≤ 10^9)
+
+// ## Output
+// - Một số nguyên duy nhất là tổng lớn nhất của dãy con bitonic.
+
+// ## Ví dụ
+
+// ### Input
+// 6  
+// 1 15 51 45 33 100  
+
+// ### Output
+// 141
+
+// (Giải thích: Dãy con bitonic có tổng lớn nhất là 1 + 15 + 51 + 45 + 33 = 145, sau khi trừ số trung tâm tính trùng lặp sẽ ra 141)
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,39 @@
+/*
+Đề bài:
+Cho ma trận A[][] là ma trận vuông cỡ N x N. 
+Hãy tính A^K (lũy thừa K của ma trận) và chia dư các phần tử trong ma trận kết quả cho 10^9 + 7.
+
+Input:
+- Dòng đầu tiên: hai số nguyên N K (1 ≤ N ≤ 10, 1 ≤ K ≤ 10^9)
+- N dòng tiếp theo, mỗi dòng N số nguyên là các phần tử của ma trận A
+
+Output:
+- N dòng, mỗi dòng N số nguyên là phần tử của ma trận A^K (mod 10^9 + 7)
+
+Ví dụ:
+
+Input:
+2 3
+1 1
+1 0
+
+Output:
+3 2
+2 1
+
+Input:
+3 2
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+30 36 42
+66 81 96
+102 126 150
+*/
+
+
 // Cho ma trận A[][] là ma trận vuông cỡ N x N. Hãy tính kết quả A^K và chia dư các phần tử trong ma trận kết quả cho 10^9 + 7
 #include <bits/stdc++.h>
 using namespace std;

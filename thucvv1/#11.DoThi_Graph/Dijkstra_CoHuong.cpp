@@ -1,3 +1,22 @@
+
+/*
+Bài toán: Tìm đường đi ngắn nhất từ đỉnh s đến mọi đỉnh còn lại trên đồ thị có trọng số không âm.
+
+Ý tưởng:
+- Sử dụng thuật toán Dijkstra với Priority Queue (heap) để luôn chọn đỉnh có khoảng cách ngắn nhất chưa được xử lý.
+- Relaxation: nếu tìm được đường đi ngắn hơn tới đỉnh kề, cập nhật khoảng cách và đưa đỉnh đó vào heap.
+- Thời gian: O((n + m) log n) với n đỉnh, m cạnh.
+
+Input:
+- Dòng 1: n m s (số đỉnh, số cạnh, đỉnh nguồn)
+- m dòng tiếp theo: x y w (cạnh từ x đến y với trọng số w)
+  + Nếu đồ thị vô hướng, thêm dske[y].push_back({x, w});
+
+Output:
+- Một dòng n số: d[1], d[2], ..., d[n] khoảng cách ngắn nhất từ s tới các đỉnh.
+*/
+
+
 // tìm đường đi ngắn nhất từ đỉnh s đến mọi đỉnh còn lại trên đồ thị
 #include <bits/stdc++.h>
 using namespace std;

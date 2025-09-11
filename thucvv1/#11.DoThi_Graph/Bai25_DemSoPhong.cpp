@@ -1,3 +1,21 @@
+// Đề bài:
+// Bạn được đưa cho một bản đồ của một tòa nhà và nhiệm vụ là đếm số lượng phòng.
+// Bản đồ có kích thước n × m, mỗi ô là sàn ('.') hoặc tường ('#').
+// Bạn có thể đi sang trái, phải, lên và xuống qua các ô sàn.
+// In ra số lượng phòng.
+
+// Input:
+// 5 8
+// ########
+// #..#...#
+// ####.#.#
+// #..#...#
+// ########
+
+// Output:
+// 3
+
+
 // Bạn được đưa cho một bản đồ của một tòa nhà và nhiệm vụ của bạn là đếm số lượng phòng của tòa nhà đó.
 // Kích thước của bản đồ là n × m hình vuông và mỗi hình vuông là sàn hoặc tường.
 // Bạn có thể đi bộ sang trái, phải, lên và xuống qua các ô sàn.

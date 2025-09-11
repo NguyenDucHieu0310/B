@@ -1,3 +1,26 @@
+/*
+Bài toán: Kiểm tra đồ thị có hướng có chu trình hay không bằng DFS và đánh dấu màu.
+
+Ý tưởng:
+- Dùng 3 màu cho các đỉnh:
+  + 0 (trắng): chưa tham
+  + 1 (xám): đang tham (DFS đang duyệt)
+  + 2 (đen): đã tham xong
+- DFS từ mỗi đỉnh trắng:
+   - Nếu gặp đỉnh xám => tồn tại chu trình.
+   - Sau khi DFS xong đỉnh, đổi màu thành đen.
+- Nếu DFS tất cả các đỉnh mà không gặp đỉnh xám nào, đồ thị không có chu trình.
+
+Input:
+- Dòng 1: n m (số đỉnh, số cạnh)
+- m dòng tiếp theo: x y (cạnh hướng từ x -> y)
+
+Output:
+- YES nếu đồ thị có chu trình
+- NO nếu không có chu trình
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

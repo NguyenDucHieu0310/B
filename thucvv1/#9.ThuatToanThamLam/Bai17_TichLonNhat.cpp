@@ -1,3 +1,25 @@
+/*
+Đề bài:
+Cho một mảng n số nguyên, hãy tìm tích lớn nhất có thể của hai hoặc ba phần tử trong mảng.
+
+Input:
+- Dòng 1: Số nguyên n (3 ≤ n ≤ 10^5)
+- Dòng 2: n số nguyên a[i] (-10^9 ≤ a[i] ≤ 10^9)
+
+Output:
+- Một số nguyên, tích lớn nhất có thể tạo ra từ hai hoặc ba phần tử bất kỳ của mảng.
+
+Ví dụ:
+
+Input:
+5
+-10 -10 5 2 3
+
+Output:
+500
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

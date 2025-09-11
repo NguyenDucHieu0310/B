@@ -1,3 +1,33 @@
+/*
+Đề bài:
+Cho một mảng a[] gồm n số nguyên đã sắp xếp tăng dần. Kiểm tra xem một số k có xuất hiện trong mảng không.
+
+Input:
+- Dòng 1: Hai số nguyên n và k (1 ≤ n ≤ 10^5, |k| ≤ 10^9)
+- Dòng 2: n số nguyên a[i] đã sắp xếp tăng dần
+
+Output:
+- "YES" nếu k xuất hiện trong mảng
+- "NO" nếu k không xuất hiện trong mảng
+
+Ví dụ:
+
+Input:
+5 3
+1 2 3 4 5
+
+Output:
+YES
+
+Input:
+5 6
+1 2 3 4 5
+
+Output:
+NO
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

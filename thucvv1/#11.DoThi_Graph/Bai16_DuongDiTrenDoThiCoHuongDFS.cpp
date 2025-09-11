@@ -1,3 +1,23 @@
+// Đề bài:
+// Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
+// Cho trước hai đỉnh s và t. Hãy tìm đường đi từ s đến t theo thuật toán DFS.
+// Trong quá trình mở rộng, luôn ưu tiên mở rộng các đỉnh có số thứ tự nhỏ hơn.
+// Nếu không có đường đi, in ra -1.
+
+// Input:
+// 5 6 1 5
+// 1 2
+// 1 3
+// 2 4
+// 3 4
+// 4 5
+// 3 5
+
+// Output:
+// 1 2 4 5
+
+
+
 // Cho đồ thị có hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
 // Hãy tìm đường đi theo thuật toán DFS từ đỉnh s tới đỉnh t.
 // Trong qúa trình mở rộng của thuật toán DFS, luôn ưu tiên mở rộng đỉnh có số thứ tự nhỏ hơn.

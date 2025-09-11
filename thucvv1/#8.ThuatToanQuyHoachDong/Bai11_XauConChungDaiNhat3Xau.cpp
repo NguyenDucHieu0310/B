@@ -1,3 +1,25 @@
+// ## Đề bài
+// Cho ba xâu ký tự `x`, `y`, `z`. Hãy tìm độ dài của chuỗi con chung dài nhất (LCS – Longest Common Subsequence) xuất hiện trong cả ba xâu.
+
+// ## Input
+// - Dòng 1: xâu `x`
+// - Dòng 2: xâu `y`
+// - Dòng 3: xâu `z`
+
+// ## Output
+// - Một số nguyên duy nhất là độ dài của chuỗi con chung dài nhất của cả ba xâu.
+
+// ## Ví dụ
+
+// ### Input
+// abcde  
+// acebd  
+// adebc  
+
+// ### Output
+// 2
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

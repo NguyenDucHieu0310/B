@@ -1,3 +1,58 @@
+// ĐỀ BÀI
+
+// Cho một ma trận vuông nhị phân kích thước n × n (chỉ chứa 0 và 1).  
+// Bạn đứng tại ô (1, 1) (góc trên bên trái) và muốn đi đến ô (n, n) (góc dưới bên phải).  
+
+// Quy tắc di chuyển:
+// - Có thể di chuyển sang **4 hướng**:
+//   - U: lên trên (Up)
+//   - D: xuống dưới (Down)
+//   - L: sang trái (Left)
+//   - R: sang phải (Right)
+// - Chỉ được đi qua các ô có giá trị 1.
+// - Không được đi lại vào ô đã đi qua (mỗi ô chỉ đi tối đa 1 lần).
+
+// Hãy liệt kê tất cả các đường đi hợp lệ từ (1, 1) đến (n, n).  
+// Các đường đi được in theo **thứ tự từ điển tăng dần**.  
+// Nếu không có đường đi nào, in ra `-1`.
+
+// INPUT
+// - Dòng 1: số nguyên n — kích thước của ma trận.
+// - n dòng tiếp theo: mỗi dòng gồm n số nguyên 0 hoặc 1.
+
+// OUTPUT
+// - Liệt kê tất cả các đường đi (mỗi đường đi là một chuỗi ký tự gồm U, D, L, R).
+// - Nếu không có đường đi nào, in ra -1.
+
+// VÍ DỤ
+
+// Ví dụ 1
+// Input
+// 4
+// 1 0 0 0
+// 1 1 0 1
+// 1 1 0 0
+// 0 1 1 1
+
+// Output
+// DRDDRR
+// DRDRDR
+// DRDRRD
+// DDRRDR
+// DDRRRD
+
+// Ví dụ 2
+// Input
+// 4
+// 1 0 0 0
+// 1 1 0 1
+// 0 0 0 0
+// 1 1 1 1
+
+// Output
+// -1
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

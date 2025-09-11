@@ -1,3 +1,23 @@
+/*
+Đề bài:
+Bạn được cung cấp một lưới 2D. Dấu '#' đại diện cho chướng ngại vật và dấu '.' đại diện cho không gian trống.
+Bạn cần tìm các khu vực của các thành phần bị ngắt kết nối. 
+Các ô (i + 1, j), (i, j + 1), (i-1, j), (i, j-1) là các ô liền kề với ô (i, j).
+
+Input:
+4 5
+.#...
+..##.
+#..#.
+..#..
+
+Output:
+3 4 1 1
+Giải thích: Các thành phần rời rạc có diện tích lần lượt 3, 4, 1, 1
+*/
+
+
+
 // Bạn được cung cấp một lưới 2D. Dấu '#' đại diện cho chướng ngại vật và dấu '.' đại diện cho không gian trống.
 // Bạn cần tìm các khu vực của các thành phần bị ngắt kết nối. Các ô (i + 1, j), (i, j + 1), (i-1, j), (i, j-1) là các ô liền kề với ô (i, j).
 #include <bits/stdc++.h>

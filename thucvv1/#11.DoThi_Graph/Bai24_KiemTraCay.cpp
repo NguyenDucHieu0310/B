@@ -1,3 +1,18 @@
+// Đề bài:
+// Một đồ thị N đỉnh là một cây nếu nó có đúng N-1 cạnh và giữa 2 đỉnh bất kì chỉ tồn tại duy nhất 1 đường đi. 
+// Cho một đồ thị vô hướng N đỉnh và M cạnh, hãy kiểm tra đồ thị đã cho có phải là một cây hay không.
+// In ra 1 nếu là cây, ngược lại in 0.
+
+// Input:
+// 4 3
+// 1 2
+// 2 3
+// 3 4
+
+// Output:
+// 1
+
+
 // Một đồ thị N đỉnh là một cây, nếu như nó có đúng N-1 cạnh và giữa 2 đỉnh bất kì, chỉ tồn tại duy nhất 1 đường đi giữa chúng.
 // Cho một đồ thị vô hướng N đỉnh và M cạnh, hãy kiểm tra đồ thị đã cho có phải là một cây hay không?
 

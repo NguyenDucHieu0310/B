@@ -1,3 +1,23 @@
+// ## Đề bài
+// Cho một con xúc xắc 6 mặt. Hãy tính số cách để tung xúc xắc nhiều lần sao cho tổng các mặt ngửa bằng `n`. Kết quả in ra modulo 10^9 + 7.
+
+// ## Input
+// - Một số nguyên `n` (1 ≤ n ≤ 10^5)
+
+// ## Output
+// - Một số nguyên duy nhất: số cách tung xúc xắc để tổng bằng `n`, modulo 10^9 + 7.
+
+// ## Ví dụ
+
+// ### Input
+// 3
+
+// ### Output
+// 4
+
+// (Giải thích: Các cách là [1+1+1], [1+2], [2+1], [3])
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

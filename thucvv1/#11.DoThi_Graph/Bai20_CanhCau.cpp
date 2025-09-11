@@ -1,3 +1,19 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh. 
+// Hãy đếm số lượng cạnh cầu (bridge) của đồ thị.
+
+// Input:
+// 5 5
+// 1 2
+// 1 3
+// 3 2
+// 1 4
+// 4 5
+
+// Output:
+// 2
+
+
 
 #include <bits/stdc++.h>
 using namespace std;

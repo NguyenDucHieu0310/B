@@ -1,3 +1,26 @@
+/*
+Đề bài:
+Cho một mảng đã sắp xếp tăng dần a[] gồm n phần tử và một số nguyên x. 
+Tìm phần tử lớn nhất trong mảng mà không vượt quá x (nếu không có trả về -1).
+
+Input:
+- Dòng 1: Hai số nguyên n và x (1 ≤ n ≤ 10^5, |x| ≤ 10^9)
+- Dòng 2: n số nguyên của mảng đã sắp xếp tăng dần a[0], a[1], ..., a[n-1]
+
+Output:
+- Một số nguyên: phần tử lớn nhất ≤ x trong mảng, nếu không có phần tử nào thỏa mãn thì in -1
+
+Ví dụ:
+
+Input:
+5 7
+1 3 5 6 10
+
+Output:
+6
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

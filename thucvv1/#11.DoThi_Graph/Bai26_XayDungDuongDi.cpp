@@ -1,3 +1,21 @@
+/*
+Đề bài:
+Ở 28techland có n thành phố và m đường nối giữa chúng. Nhiệm vụ là xây dựng thêm các con đường để bất kỳ hai thành phố nào cũng có thể đi tới nhau.
+Hãy in ra số lượng đường tối thiểu cần xây và các cặp thành phố cần nối.
+
+Input:
+6 3
+1 2
+2 3
+4 5
+
+Output:
+2
+3 4
+4 6
+*/
+
+
 // Ở 28techland có n thành phố và m đường giữa chúng. Mục tiêu là xây dựng những con đường mới để có một tuyến đường giữa hai thành phố bất kỳ.
 // Nhiệm vụ của bạn là tìm ra số lượng đường tối thiểu cần thiết, đồng thời xác định những con đường nào nên được xây dựng.
 

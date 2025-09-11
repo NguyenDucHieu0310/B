@@ -1,3 +1,30 @@
+/*
+Đề bài:
+Một người cần mua lương thực để sử dụng trong s ngày, mỗi ngày cần m đơn vị lương thực. Mỗi ngày chỉ có thể mua tối đa n đơn vị, và mỗi tuần có 1 ngày không thể đi mua. Hãy tính số ngày tối thiểu cần đi mua để đảm bảo đủ lương thực.
+
+Input:
+- Dòng 1: Ba số nguyên n s m (1 ≤ n, s, m ≤ 10^5)
+
+Output:
+- Một số nguyên: số ngày tối thiểu cần đi mua hoặc -1 nếu không đủ khả năng mua.
+
+Ví dụ:
+
+Input:
+16 12 2
+
+Output:
+2
+
+Input:
+2 7 3
+
+Output:
+-1
+*/
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

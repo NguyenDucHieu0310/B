@@ -1,3 +1,35 @@
+// ### ĐỀ BÀI: BÀI TOÁN CÁI TÚI 0/1 (KNAPSACK)
+
+// Có **n** đồ vật, đồ vật thứ `i` có:  
+// - trọng lượng (hoặc thể tích) là `w[i]`,  
+// - giá trị là `v[i]`.  
+
+// Một chiếc ba lô có sức chứa tối đa **V**.  
+// Hãy chọn một tập các đồ vật đưa vào ba lô sao cho:  
+// - Tổng trọng lượng các đồ vật không vượt quá **V**,  
+// - Tổng giá trị là **lớn nhất có thể**.  
+
+// #### Input  
+// - Dòng 1: Hai số nguyên `n`, `V` (1 ≤ n ≤ 1000, 1 ≤ V ≤ 1000).  
+// - Dòng 2: `n` số nguyên `w[1], w[2], ..., w[n]` — trọng lượng của các đồ vật.  
+// - Dòng 3: `n` số nguyên `v[1], v[2], ..., v[n]` — giá trị của các đồ vật.  
+
+// #### Output  
+// - Một số nguyên duy nhất — giá trị lớn nhất có thể đạt được.  
+
+// ---
+
+// #### Ví dụ  
+
+// Input  
+// 4 7  
+// 1 3 4 5  
+// 1 4 5 7  
+
+// Output  
+// 9  
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

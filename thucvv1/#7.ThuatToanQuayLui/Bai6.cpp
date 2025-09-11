@@ -1,3 +1,36 @@
+// ĐỀ BÀI
+
+// Bài toán N-Queens:  
+// Cho một bàn cờ kích thước n × n. Hãy đặt n quân hậu lên bàn cờ sao cho:  
+// - Không có 2 quân hậu nào tấn công lẫn nhau (không cùng hàng, cột, đường chéo chính, đường chéo phụ).  
+
+// Hãy đếm số cách sắp xếp hợp lệ.
+
+// INPUT
+// - Một số nguyên n (1 ≤ n ≤ 15).
+
+// OUTPUT
+// - Một số nguyên duy nhất: số cách đặt n quân hậu thỏa mãn điều kiện.
+
+// VÍ DỤ
+
+// Ví dụ 1  
+// Input
+// 4
+
+// Output
+// 2
+
+// Giải thích: Có 2 cách đặt 4 quân hậu trên bàn cờ 4×4.
+
+// Ví dụ 2  
+// Input
+// 1
+
+// Output
+// 1
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

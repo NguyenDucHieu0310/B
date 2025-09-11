@@ -1,3 +1,29 @@
+/*
+Đề bài:
+Tính số Fibonacci thứ N modulo 10^9 + 7. Sử dụng phương pháp nhân ma trận để tính nhanh.
+
+Input:
+- Một số nguyên N (0 ≤ N ≤ 10^18)
+
+Output:
+- Số Fibonacci thứ N modulo 10^9 + 7
+
+Ví dụ:
+
+Input:
+10
+
+Output:
+55
+
+Input:
+50
+
+Output:
+12586269025 mod 10^9 + 7 = 586268941
+*/
+
+
 // Tìm số Fibonacci thứ N sau khi chia dư kết quả cho 10^9 + 7
 // su dung ma tran 1 1 luy thua mu n thi ra duoc ma tran F(n + 1)  F(n)
 //                 1 0                                    F(n)      F(n - 1)

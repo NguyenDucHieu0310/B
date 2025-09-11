@@ -1,3 +1,26 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
+// Có Q truy vấn, mỗi truy vấn yêu cầu trả lời câu hỏi: giữa 2 đỉnh s và t có tồn tại đường đi tới nhau hay không?
+// Nếu tồn tại đường đi, in ra 1, ngược lại in ra -1.
+
+// Input:
+// 5 4
+// 1 2
+// 2 3
+// 4 5
+// 1 3
+// 3
+// 1 3
+// 1 4
+// 4 5
+
+// Output:
+// 1
+// -1
+// 1
+
+
+
 // Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
 // Có Q truy vấn, mỗi truy vấn yêu cầu trả lời câu hỏi giữa 2 đỉnh s và t có tồn tại đường đi tới nhau hay không ?
 

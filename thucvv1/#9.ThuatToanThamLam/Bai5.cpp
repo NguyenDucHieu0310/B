@@ -1,3 +1,32 @@
+/*
+Đề bài:
+Cho một mảng a gồm n số nguyên. Kiểm tra xem mảng có thể sắp xếp sao cho mỗi phần tử a[i] bằng chính nó hoặc phần tử đối xứng trong mảng khi sắp xếp tăng dần hay không.
+
+Input:
+- Dòng 1: số nguyên n (1 ≤ n ≤ 10^5)
+- Dòng 2: n số nguyên a[i] (1 ≤ a[i] ≤ 10^9)
+
+Output:
+- In "YES" nếu mảng thỏa mãn điều kiện, ngược lại in "NO"
+
+Ví dụ:
+
+Input:
+5
+1 3 2 3 1
+
+Output:
+YES
+
+Input:
+4
+1 3 2 4
+
+Output:
+NO
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

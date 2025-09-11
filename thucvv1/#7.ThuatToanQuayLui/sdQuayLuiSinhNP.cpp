@@ -1,3 +1,33 @@
+// ### ĐỀ BÀI: SINH XÂU NHỊ PHÂN ĐỘ DÀI N
+
+// Cho số nguyên dương **n**. Hãy in ra tất cả các xâu nhị phân độ dài `n`.
+
+// #### Input  
+// - Một số nguyên `n` (1 ≤ n ≤ 15).
+
+// #### Output  
+// - In ra tất cả các xâu nhị phân có độ dài `n`.  
+// - Mỗi xâu trên một dòng.  
+// - Thứ tự in từ trái sang phải.
+
+// ---
+
+// #### Ví dụ  
+
+// Input
+// 3
+
+// Output
+// 000
+// 001
+// 010
+// 011
+// 100
+// 101
+// 110
+// 111
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int X[1001], n;

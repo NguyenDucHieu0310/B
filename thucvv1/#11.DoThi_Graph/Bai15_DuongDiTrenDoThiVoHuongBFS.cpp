@@ -1,3 +1,23 @@
+// Đề bài:
+// Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
+// Cho trước hai đỉnh s và t. Hãy tìm đường đi từ s đến t theo thuật toán BFS.
+// Trong quá trình mở rộng, luôn ưu tiên mở rộng các đỉnh có số thứ tự nhỏ hơn.
+// Nếu không có đường đi, in ra -1.
+
+// Input:
+// 6 7 1 6
+// 1 2
+// 1 3
+// 2 4
+// 2 5
+// 3 5
+// 4 6
+// 5 6
+
+// Output:
+// 1 2 4 6
+
+
 // Cho đồ thị vô hướng G = (V, E) được biểu diễn dưới dạng danh sách cạnh.
 // Hãy tìm đường đi theo thuật toán BFS từ đỉnh s tới đỉnh t.
 // Trong qúa trình mở rộng của thuật toán BFS, luôn ưu tiên mở rộng đỉnh có số thứ tự nhỏ hơn.

@@ -1,3 +1,30 @@
+/*
+Bài toán:
+- Tìm cây khung nhỏ nhất (Minimum Spanning Tree - MST) của đồ thị vô hướng có trọng số.
+- Sử dụng thuật toán Kruskal (tham lam).
+
+Input:
+- Dòng 1: n m (số đỉnh, số cạnh)
+- m dòng tiếp theo: x y w (cạnh giữa x và y có trọng số w)
+
+Output:
+- Trọng số tổng của cây khung nhỏ nhất
+- Danh sách các cạnh trong cây khung nhỏ nhất (x y w)
+
+Ý tưởng giải:
+1. Lưu đồ thị dưới dạng danh sách cạnh (mảng các struct canh {x, y, w}).
+2. Dùng thuật toán Kruskal:
+   - Sắp xếp các cạnh theo trọng số tăng dần.
+   - Dùng Disjoint Set Union (DSU) để kiểm tra chu trình:
+     - Nếu hai đỉnh của cạnh thuộc cùng tập hợp => bỏ qua (tạo chu trình)
+     - Ngược lại => thêm cạnh vào MST và gộp hai tập hợp.
+   - Dừng khi MST có đủ n-1 cạnh.
+3. Kết quả:
+   - Tổng trọng số MST
+   - Các cạnh thuộc MST
+*/
+
+
 // tìm cây khung nhỏ nhất sử dụng thuật toán Kruskal (tham lam)
 
 #include <bits/stdc++.h>
